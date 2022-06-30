@@ -25,10 +25,10 @@ jobs:
         shell: bash
         working-directory: output
 
-      - name: Dump markdown
+      - name: Dump markdown to variable
         id: report
         run: |
-          cat report.md
+          echo "::set-output name=output::$(cat report.md)"
         shell: bash
         working-directory: output
 
