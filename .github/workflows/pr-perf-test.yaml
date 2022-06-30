@@ -28,14 +28,14 @@ jobs:
       - name: Dump markdown to variable
         id: report
         run: |
-          echo "::set-output name=output::$(cat report.md)"
+          echo "::set-output name=report::$(cat report.md)"
         shell: bash
         working-directory: output
 
       - uses: actions/github-script@v6
         if: github.event_name == 'pull_request'
         env:
-          REPORT: "Plots\n${{ steps.report.outputs.stdout }}"
+          REPORT: "Plots\n${{ steps.report.outputs.report }}"
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
