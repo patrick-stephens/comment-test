@@ -22,13 +22,19 @@ jobs:
               dvcorg/cml-py3:latest \
               /bin/sh -c "cml-publish /output/$FILE --driver=github --repo=${{ github.repository }} --md --title=$FILE >> /output/report.md"
           done
+          echo "" >> report.md
         shell: bash
         working-directory: output
 
       - name: Dump markdown to variable
         id: report
         run: |
-          echo "::set-output name=report::$(cat report.md)"
+          file_test_newlines=""
+          while read line
+          do
+            file_test_newlines+="\n$line"
+          done < report.md
+          echo "::set-output name=report::$file_test_newlines"
         shell: bash
         working-directory: output
 
@@ -42,9 +48,8 @@ jobs:
             const output = `#### Performance Test
             Run URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
             <details><summary>Show Perfomance Results</summary>
-            \`\`\`\n
+            \n
             ${process.env.REPORT}
-            \`\`\`
             </details>
             *Pushed by: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
             github.rest.issues.createComment({
