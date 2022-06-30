@@ -1,0 +1,55 @@
+{
+  "storage_layer": {
+    "chunks": {
+      "total_chunks": 1041,
+      "mem_chunks": 1041,
+      "fs_chunks": 0,
+      "fs_chunks_up": 0,
+      "fs_chunks_down": 0
+    }
+  },
+  "input_chunks": {
+    "dummy.0": {
+      "status": {
+        "overlimit": false,
+        "mem_size": "6.4K",
+        "mem_limit": "0b"
+      },
+      "chunks": {
+        "total": 251,
+        "up": 251,
+        "down": 0,
+        "busy": 251,
+        "busy_size": "6.4K"
+      }
+    },
+    "tail.1": {
+      "status": {
+        "overlimit": false,
+        "mem_size": "1.2G",
+        "mem_limit": "0b"
+      },
+      "chunks": {
+        "total": 790,
+        "up": 790,
+        "down": 0,
+        "busy": 790,
+        "busy_size": "1.2G"
+      }
+    },
+    "storage_backlog.2": {
+      "status": {
+        "overlimit": false,
+        "mem_size": "0b",
+        "mem_limit": "0b"
+      },
+      "chunks": {
+        "total": 0,
+        "up": 0,
+        "down": 0,
+        "busy": 0,
+        "busy_size": "0b"
+      }
+    }
+  }
+}

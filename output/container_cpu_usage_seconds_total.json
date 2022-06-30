@@ -1,0 +1,4324 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu00",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "310.001528526"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu01",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "359.508039124"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu02",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "573.34570008"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu03",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "482.799064918"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu04",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "672.336626939"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu05",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "343.062803255"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu06",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "568.535417492"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "cpu": "cpu07",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588331.097,
+          "206.179904464"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu00",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "14.107374013"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu01",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "20.53643997"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu02",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "18.809100322"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu03",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "21.661683226"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu04",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "17.269405162"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu05",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "18.575432273"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu06",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "14.755999373"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "cpu": "cpu07",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588331.097,
+          "12.856644737"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu00",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "400.583396829"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu01",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "379.684384785"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu02",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "343.058206064"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu03",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "363.084039385"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu04",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "325.642607674"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu05",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "371.042736821"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu06",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "328.574525433"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu07",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588331.097,
+          "400.278328829"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu00",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.720652509"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu01",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.611721878"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu02",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.413240152"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu03",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.432695954"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu04",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.500251112"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu05",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.520394304"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu06",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.483010645"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "cpu": "cpu07",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588331.097,
+          "0.514849528"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu00",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "20.788191563"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu01",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "22.284037297"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu02",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "17.281027137"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu03",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "17.652206842"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu04",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "16.462587741"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu05",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "20.414906272"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu06",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "18.94584545"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "cpu": "cpu07",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588331.097,
+          "18.562122515"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "866.257234548"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "804.464757518"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "32.183100404"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.011998008"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.010738808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002658156"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.017932135"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.151726808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001686764"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.076058215"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "19.652011323"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.274704715"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1.828662709"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.093524338"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.16822393"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.072961568"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002957696"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.022901975"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.273191834"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.012600152"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/system-getty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001045293"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/system-modprobe.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001780714"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000070369"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.003562767"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.065833475"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.022780496"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.031723322"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.039527681"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.183390216"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002204245"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu00",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "14.495198262"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "904.546086932"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "842.468071306"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "36.432324412"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.016874406"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/atd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00036095"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00161763"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.159860868"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.022939915"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.927147077"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.057908104"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "21.811708457"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.317472798"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "2.037084305"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.06443688"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.084019346"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/multipathd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.237866922"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.101228091"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.003760317"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.01185762"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.285158153"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.078866365"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/system-modprobe.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000316371"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002019414"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000348511"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.049396029"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.061888529"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.011239421"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.059208393"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.247848747"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu01",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "14.745925132"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1098.743132864"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1029.562312046"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "34.133915056"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.014184774"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002942793"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.25097026"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.018518721"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.103903545"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002579068"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.090693291"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "20.092471834"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.252020855"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "2.865173314"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.090456702"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.067654251"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.126954592"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001746561"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.02409293"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.225490595"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/snapd.socket",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00076689"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.032004993"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000641011"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.07463582"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.019972607"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.006335191"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.031332795"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.236232832"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000358919"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu02",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "17.271283005"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1013.926636452"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "950.094556052"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "33.348331046"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.012874393"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002222024"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.006930223"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.185539773"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.365984288"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000601691"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.07735979"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "20.382184504"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.348134865"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "2.006822125"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.138381323"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.130614319"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/multipathd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.032292222"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.114724917"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00338391"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.014294928"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.168950022"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.014146903"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/system-getty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000601493"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000276972"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002202783"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.065382246"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.023755686"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.012232545"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.032432796"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.393345443"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.053786339"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu03",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "16.294613844"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1142.375936964"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1085.780590111"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "31.723249774"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020125213"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001788775"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.004255599"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.005986737"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.239876942"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.108987969"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "18.452341477"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.284623541"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1.54043237"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.10399154"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.083972148"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/multipathd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.008571439"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.078742029"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.01486709"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.031081719"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.331295913"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.023141772"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/system-modprobe.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.008045503"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001022041"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.128628702"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.033063782"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.015035529"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.041506842"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.237035043"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00012608"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu04",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "11.055355293"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "863.876783692"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "810.483089192"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "34.689020079"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.02042976"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/atd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001237572"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001997824"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001939384"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.005064745"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "8.117123036"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001320631"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.055245549"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "20.608666805"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/docker.socket",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001247591"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.296070062"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1.400822421"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.198184729"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.024243425"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/multipathd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001253052"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.091624398"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.004127341"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.016829106"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.154160376"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.01830169"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/system-getty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000699663"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000550402"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.065892346"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.02251778"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.008111725"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.050019255"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.199671731"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00014809"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu05",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "9.722731077"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1041.381489358"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "993.194328522"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "30.212187686"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.015495246"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.012843141"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.061432172"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.007602503"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "7.220787994"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002584739"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.082882354"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "18.763476998"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.279427849"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1.439127196"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.110331094"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.049434882"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.070451034"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.003251091"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020068079"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.199655952"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.031733662"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/system-getty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000100941"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.001147542"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.034832374"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.025862346"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020255723"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.030278863"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.198569322"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000958551"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu06",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "9.46236022"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "804.332829709"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "696.259936865"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "37.981793304"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/accounts-daemon.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.035117798"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/atd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002314548"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/chrony.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.002297643"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/cloud-final.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.187586823"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/cloud-init-local.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.850295384"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/containerd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "6.133792101"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/cron.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.007098588"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/dbus.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.085179954"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/docker.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "21.660519548"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/google-cloud-ops-agent-fluent-bit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.340226414"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/google-cloud-ops-agent-opentelemetry-collector.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "1.98034163"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/google-guest-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.155189305"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/google-osconfig-agent.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.168815109"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/multipathd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.2617987"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/networkd-dispatcher.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.112052414"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/polkit.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020167645"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/rsyslog.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.022663578"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/snapd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.187238079"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/ssh.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.091884717"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/system-getty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.000143409"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/system-modprobe.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00034642"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/system-serial\\x2dgetty.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.00004834"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/system-systemd\\x2dfsck.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.008339466"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/systemd-journald.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.096039037"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/systemd-logind.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.02286022"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/systemd-networkd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020102657"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/systemd-resolved.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.042506219"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/systemd-udevd.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.382330992"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/system.slice/unattended-upgrades.service",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "0.020492505"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "cpu07",
+          "id": "/user.slice",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588331.097,
+          "16.732812737"
+        ]
+      }
+    ]
+  }
+}

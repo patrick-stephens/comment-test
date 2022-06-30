@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "fluentbit_output_proc_bytes_total",
+          "instance": "fb-baseline:2020",
+          "job": "fb-baseline",
+          "name": "null.0"
+        },
+        "value": [
+          1656588330.487,
+          "10854109869"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "fluentbit_output_proc_bytes_total",
+          "instance": "fb-delta:2020",
+          "job": "fb-delta",
+          "name": "null.0"
+        },
+        "value": [
+          1656588330.487,
+          "822592103"
+        ]
+      }
+    ]
+  }
+}

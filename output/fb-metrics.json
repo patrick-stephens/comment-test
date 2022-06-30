@@ -1,0 +1,31 @@
+{
+  "input": {
+    "dummy.0": {
+      "records": 423,
+      "bytes": 10998
+    },
+    "tail.1": {
+      "records": 1853100,
+      "bytes": 2069424512,
+      "files_opened": 100,
+      "files_closed": 0,
+      "files_rotated": 0
+    },
+    "storage_backlog.2": {
+      "records": 0,
+      "bytes": 0
+    }
+  },
+  "filter": {},
+  "output": {
+    "null.0": {
+      "proc_records": 704872,
+      "proc_bytes": 786967860,
+      "errors": 0,
+      "retries": 0,
+      "retries_failed": 0,
+      "dropped_records": 0,
+      "retried_records": 0
+    }
+  }
+}

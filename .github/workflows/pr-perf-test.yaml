@@ -1,0 +1,69 @@
+on:
+  workflow_dispatch:
+
+jobs:
+
+  pr-perf-test-upload:
+    name: PR - performance test upload
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload plots to CML
+        run: |
+          for FILE in *.png; do
+            echo "Handling $FILE"
+            docker run --rm -t \
+              -v $PWD:/output:rw \
+              dvcorg/cml-py3:latest \
+              /bin/sh -c "cml-publish /output/$FILE --driver=github --repo=${{ github.repository }} --md --title=$FILE >> /output/report.md"
+          done
+        shell: bash
+        working-directory: output
+
+      - name: Dump markdown
+        id: report
+        run: |
+          cat report.md
+        shell: bash
+        working-directory: output
+
+      - uses: actions/github-script@v6
+        continue-on-error: true
+        env:
+          REPORT: "Plots\n${{ steps.report.outputs.stdout }}"
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const output = `#### Performance Test
+            Run URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            <details><summary>Show Perfomance Results</summary>
+            \`\`\`\n
+            ${process.env.REPORT}
+            \`\`\`
+            </details>
+            *Pushed by: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+
+  pr-perf-test-complete:
+    # Only runs on success
+    name: PR - performance test complete
+    runs-on: ubuntu-latest
+    needs:
+      - pr-perf-test-run
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions-ecosystem/action-add-labels@v1
+        name: Label the PR
+        with:
+          labels: ci/performance-test-ok
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.pull_request.number }}

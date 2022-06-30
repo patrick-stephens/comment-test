@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "33ac72c7d540bf93ba18be8ed974b353b0789491e77428a36a6819a07d68b0a3",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-baseline",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_created": "2022-06-20T14:30:21.790Z",
+          "container_label_org_opencontainers_image_description": "Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_revision": "9ec43447b61665cb67d3b579076f878b25b01549",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "fluent-bit",
+          "container_label_org_opencontainers_image_url": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5",
+          "id": "/docker/4db115446411e0d06274b11dd2c65e6497f42d99e123bef46d83ee8a5843da56",
+          "image": "fluent/fluent-bit:latest",
+          "instance": "cadvisor:8080",
+          "interface": "eth0",
+          "job": "cadvisor",
+          "name": "perf_test_fb-baseline_1"
+        },
+        "value": [
+          1656588332.886,
+          "794"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "container_label_author": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_com_docker_compose_config_hash": "cff60d169ee3219f5194d7a5e80bc53121e5be99cba85915c4e40f6352f58eb8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "fb-delta",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_description": "Fluent Bit multi-architecture debug container image",
+          "container_label_org_opencontainers_image_authors": "Eduardo Silva <eduardo@calyptia.com>",
+          "container_label_org_opencontainers_image_description": "Fluent Bit debug container image",
+          "container_label_org_opencontainers_image_documentation": "https://docs.fluentbit.io/",
+          "container_label_org_opencontainers_image_licenses": "Apache-2.0",
+          "container_label_org_opencontainers_image_source": "https://github.com/fluent/fluent-bit",
+          "container_label_org_opencontainers_image_title": "Fluent Bit Debug",
+          "container_label_org_opencontainers_image_vendor": "Fluent Organization",
+          "container_label_org_opencontainers_image_version": "1.9.5-debug",
+          "container_label_vendor": "Fluent Organization",
+          "container_label_version": "1.9.5-debug",
+          "id": "/docker/f6bef574baba639b07af9d19a24a4b1d6fa537cb61a6c65350f10f1460733337",
+          "image": "perf_test_fb-delta",
+          "instance": "cadvisor:8080",
+          "interface": "eth0",
+          "job": "cadvisor",
+          "name": "perf_test_fb-delta_1"
+        },
+        "value": [
+          1656588332.886,
+          "880"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "container_label_com_docker_compose_config_hash": "2ec6132500f429f8bc54df50d42870e33a55774e9446046d2186826e2b0745f8",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "data-generator",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "id": "/docker/96760f17985356f9c1c9da3b28209cac0db84922d8e7d7c67c0b52139abc0f2a",
+          "image": "fluentbitdev/fluent-bit-ci:benchmark",
+          "instance": "cadvisor:8080",
+          "interface": "eth0",
+          "job": "cadvisor",
+          "name": "perf_test_data-generator_1"
+        },
+        "value": [
+          1656588332.886,
+          "205"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "container_label_com_docker_compose_config_hash": "b98018a5752dc0ed59406057186fa49bb26aedac88282de487f2db0456239c9e",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "prometheus",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "container_label_maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>",
+          "id": "/docker/5842d373989224309746b37e2b3b9399fa394a0997065ae1990dd011226bd939",
+          "image": "prom/prometheus:v2.33.3",
+          "instance": "cadvisor:8080",
+          "interface": "eth0",
+          "job": "cadvisor",
+          "name": "perf_test_prometheus_1"
+        },
+        "value": [
+          1656588332.886,
+          "3668"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "container_label_com_docker_compose_config_hash": "e28dc35b0c6bacf81108e43e3b7d0a41500e5270eaabedc515d66ba77b993a3b",
+          "container_label_com_docker_compose_container_number": "1",
+          "container_label_com_docker_compose_oneoff": "False",
+          "container_label_com_docker_compose_project": "perf_test",
+          "container_label_com_docker_compose_project_config_files": "docker-compose.yml,monitoring.yml",
+          "container_label_com_docker_compose_project_working_dir": "/tmp/tmp.z38XrkIuSs/examples/perf_test",
+          "container_label_com_docker_compose_service": "cadvisor",
+          "container_label_com_docker_compose_version": "1.25.0",
+          "id": "/docker/dc4d7d85a6d3a840db7dd5a19319104ea37154df4e80252416ad29ac670ff8dc",
+          "image": "gcr.io/cadvisor/cadvisor",
+          "instance": "cadvisor:8080",
+          "interface": "eth0",
+          "job": "cadvisor",
+          "name": "perf_test_cadvisor_1"
+        },
+        "value": [
+          1656588332.886,
+          "2068"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "interface": "br-b96cf84c896e",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588332.886,
+          "277"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_network_receive_packets_total",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "interface": "ens4",
+          "job": "cadvisor"
+        },
+        "value": [
+          1656588332.886,
+          "59623"
+        ]
+      }
+    ]
+  }
+}
