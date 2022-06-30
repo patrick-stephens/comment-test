@@ -22,7 +22,6 @@ jobs:
               dvcorg/cml-py3:latest \
               /bin/sh -c "cml-publish /output/$FILE --driver=github --repo=${{ github.repository }} --md --title=$FILE >> /output/report.md"
           done
-          echo "" >> report.md
         shell: bash
         working-directory: output
 
